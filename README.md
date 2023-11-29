@@ -22,11 +22,15 @@ The dataset that we used for our project was provided by [JK-Future-Github](http
 
 ## III. Methodology
 
-TODO
+First, we divided the dataset into training and test data. Instead of randomly dividing the dataset, we decided to randomly select two seasons from each decade. The reasoning behind this is because the NBA game has evolved with time, causing changes in playstyles which altered which skillsets were considered valuable to winning (e.g. shifting of paint dominating centers to increased value of three point shooting).
+
+The target feature is ```Champion_Win_Share```. This is defined to be the total wins that a team gets in the playoffs divided by the max number of wins that a team can get (16 wins). A team with a greater number of playoff wins will have a higher ```Champion_Win_Share```, and be considered to be more successful. The championship team will have a value of 1.
+
+TODO: Use XGBoost's boosted trees and random forest models and train them with the training dataset. Feed the testing dataset to the models and check if they can accurately predict which NBA team won the championship.
 
 ## IV. Evaluation and Analysis
 
-TODO
+TODO: Use SHAP library to analyze and explain the results of our machine learning models, and compare the results between each model.
 
 ## V. Related Work
 
