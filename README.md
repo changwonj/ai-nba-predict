@@ -16,7 +16,9 @@ Because we follow the NBA it would be great if we could predict the champions of
 
 ## II. Dataset
 
-Like many sports leagues, the NBA tracks and records both team and individual statistics. These statistics range from simple statistics such as win percentage, to advanced statistics such as effective field goal percentage. Our group will use analyze data from previous NBA seasons in order to determine which of these metrics are the most important for a team to be successful in the post-season, and create a model that can accurately predict which team will become the next NBA champion.
+Like many sports leagues, the NBA tracks and records various statistics from all of their games. These statistics range from simple statistics such as win percentage, to advanced statistics such as effective field goal percentage. [Baksetball Reference](https://www.basketball-reference.com/) provides a massive collection of NBA statistics from team stats to individual player statistics.
+
+The dataset that we used for our project was provided by [JK-Future-Github](https://github.com/JK-Future-GitHub/NBA_Champion/tree/main), who used a web crawler to collect data from Basketball Reference. He also added additional features such as Top_3_Conference, which describes whether the team finished within the top 3 in their respective conference. We removed seasons before 1980, as that was the year when the 3 point line was introduced, and the 2023 season, as the data collected from that season was from an incomplete season.
 
 ## III. Methodology
 
@@ -28,7 +30,10 @@ TODO
 
 ## V. Related Work
 
-TODO
+ML Libraries/Tools:
+
+- [XGBoost (Gradient Boost/Random Forest)](https://xgboost.readthedocs.io/en/stable/index.html)
+- [SHAP (ML Model Analysis)](https://shap.readthedocs.io/en/latest/index.html)
 
 ## VI. Conclusion
 
