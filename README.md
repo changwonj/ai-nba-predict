@@ -55,7 +55,7 @@ The final dataset that we used had a total of 79 columns and 1195 rows.
 
 We decided to use different regression algorithms and compare the results of each algorithms predictions. The two algorithms that we chose were Gradient Boosting and Random Forest.
 
-The reason for choosing these two models were not only due to their high accuracy and prediction accuracy, but also because they provide information on feature importance. Because one of our motivations of the project was to determine which statistics are the most important to determining what makes an NBA team a championship contender, feature importance was important to us.
+The reason for choosing these two models were not only due to their high popularitly and prediction accuracy, but also because they provide information on feature importance. Because one of our motivations of the project was to determine which statistics are the most important to determining what makes an NBA team a championship contender, feature importance was important to us.
 
 We used the libraries provided by [XGBoost](https://xgboost.readthedocs.io/en/stable/index.html)<sup>[[4]](#v-related-work)</sup> and [scikit-learn](https://scikit-learn.org/stable/index.html)<sup>[[5]](#v-related-work)</sup>:
 
@@ -281,4 +281,4 @@ Further improvements to the model can be made. One change that can be implemente
 
 An example would be the 2021 NBA season, where both Gradient Boosting and Random Forest predicted the Brooklyn Nets to finish highly, but they were knocked out very early. The reasoning was that two of their three top players were out due to injury, and they ended up losing to the eventual champions.
 
-[Video Presentation (YouTube)](https://www.youtube.com/)
+[Video Presentation (YouTube)](https://youtu.be/Q3lJQ3QvqHw/)
